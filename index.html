@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet"> 
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Animación al Scrollear</title>
+</head>
+<body>
+	<div class="hero">
+		<h1>rutas de aprendizaje - front End</h1>
+	</div>
+	<div class="container">
+		<div class="evento">
+			<div class="foto" data-aos="fade-up">
+				<img src="./img/html.png" alt="HTML">
+			</div>
+			<h3 class="fecha">HTML</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-down">
+				<img src="./img/css.jpg" alt="CSS">
+			</div>
+			<h3 class="fecha">CSS</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-left">
+				<img src="./img/git-github.png" alt="GIT & GITHUB">
+			</div>
+			<h3 class="fecha">GIT & GITHUB</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-right">
+				<img src="./img/bootstrap.jpg" alt="BOOTSTRAP">
+			</div>
+			<h3 class="fecha">BOOTSTRAP</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-up">
+				<img src="./img/js.png" alt="JAVASCRIPT">
+			</div>
+			<h3 class="fecha">JAVASCRIPT</h3>
+        </div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-up">
+				<img src="./img/react.jpg" alt="REACT">
+			</div>
+			<h3 class="fecha">REACT</h3>
+		</div>
+	</div>
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script>
+</body>
+</html>
